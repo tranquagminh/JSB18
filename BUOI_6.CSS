@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background-color: rgb(226, 226, 226);
+}
+
+header{
+    background-color: aqua;
+    text-align:center;
+    font-size: 25   px;
+    padding: 30px;
+}
+
+h1{
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+}
+
+img{
+    height: 100px;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+    border: 2px black solid;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hobby{
+    width: 700px;
+}
+
+button{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+    height: 50px;
+}
+
+.Button{
+    position: fixed;
+    background-color: white;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+    border: 2px black solid;
+}
+div a:hover{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
