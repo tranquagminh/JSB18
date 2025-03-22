@@ -1,0 +1,14 @@
+.nav-item :hover{
+    background-color: white;
+    border-radius: 10%;
+}
+.nav-item-2 :hover{
+    background-color: red;
+    border-radius: 20%;
+    color: white;
+}
+.nav-item-3 :hover{
+    background-color: white;
+    color: black;
+    border-radius: 20%;
+}

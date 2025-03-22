@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    height: 578px;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-box{
+    background-color: white;
+    height: 300px; width: 500px;
+    text-align: center;
+}
+.input-box{
+    width: 400px; height: 30px;
+    margin-bottom: 5px;
+}
+
