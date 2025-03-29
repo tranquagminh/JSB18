@@ -1,0 +1,150 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+/* 
+    Sign In, Register
+    Title
+    Search Bar
+    User Account
+    Cart
+  */
+
+/* Navbar */
+
+/* Title */
+.title {
+  padding-left: 150px;
+}
+
+.title a {
+  text-decoration: none;
+}
+
+/* Search Bar */
+.search-input {
+  position: relative;
+}
+
+.search-btn {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* User account, Cart */
+.user-cart {
+  padding-right: 150px;
+}
+
+  /* User account, cart dropdown list */
+
+.user-account-cart-list:hover .navBar-content {
+  display: block;
+}
+
+.user-account-cart-list .navBar-content {
+  width: 135px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+/* Navbar */
+
+.button-navbar {
+  font-size: 18px;
+}
+
+.navBar li {
+  list-style: none;
+  position: relative;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navBar-content {
+  position: absolute;
+  width: 230px;
+  gap: 10px;
+  padding-right: 5px;
+  display: none;
+}
+
+.navBar-content li {
+  font-size: 16px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+/* Item 2 Dropdown List */
+.giay-bong-da-list:hover .navBar-content {
+  display: block;
+}
+
+.giay-bong-da-btn:hover {
+  color: rgb(190, 190, 0);
+}
+
+
+/* Item 3 Dropdown List */
+.thuong-hieu-list:hover .navBar-content {
+  display: block;
+}
+
+.thuong-hieu-btn:hover {
+  color: rgb(190, 190, 0);
+}
+
+/* Item 4 Dropdown List */
+.phu-kien-list:hover .navBar-content {
+  display: block;
+}
+
+.phu-kien-btn:hover {
+  color: rgb(190, 190, 0)
+}
+
+/* Item 5 Dropdown List */
+.huong-dan-list:hover .navBar-content {
+  display: block;
+  width: 300px;
+}
+
+.huong-dan-btn:hover {
+  color: rgb(190, 190, 0);
+}
+
+/* Body 
+
+    Carousel
+    Suggest
+
+*/
+
+/* Suggest */
+
+.caption-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.caption-sub {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #ccc;
+  text-transform: uppercase;
+  width: 313px;
+  display: block;
+}
+
+.caption:hover {
+  color: rgb(190, 190, 0);
+}
