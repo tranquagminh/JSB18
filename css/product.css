@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Product */
+
+/* Product Img */
+.img-product {
+  position: relative;
+}
+
+.icon-sale {
+  position: absolute;
+  display: inline-block;
+  width: 38px;
+  height: 21px;
+  background-color: red;
+  color: white;
+  right: 12px;
+}
+
+
+/* Product Information */
+
+.info-product {
+    display: flex;
+}
+
+.product-info {
+    margin: 0px 0px 0px 20px;
+}
+
+    /* Product Title */
+.product-title h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  line-height: 35px;
+  width: 800px;
+}
+
+    /* Product Price */
+.product-price del {
+    text-decoration: line-through;
+    color: #ccc;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.product-price span {
+    font-size: 21px;
+    color: #f23f2f;
+    vertical-align: middle;
+}
+
+    /* Product Size */
+.product-size-info {
+    display: flex;
+}
+
+.product-size-btn button:hover {
+    background-color: #f23f2f;
+    color: white;
+}
+
+.product-size-info li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.product-size-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-size-info a:hover {
+    color: rgb(190, 190, 0);
+}
+
+        /* Product Size Btn */
+.product-size-btn {
+    padding: 8px 10px 8px 10px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 12px;
+}
+
+.product-size-btn-active {
+    padding: 8px 10px 8px 10px;
+    background-color: #f23f2f;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 12px;
+}
+
+        /* Purchase Product */
+.buy-now-product-btn {
+    padding: 5px 20px 5px 20px;
+    border: 3px solid #ccc;
+    background-color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 20px 0px 10px 0px;
+}
+
+.add-to-cart-btn {
+    padding: 5px 20px 5px 20px;
+    border: 3px solid #ccc;
+    background-color: #f23f2f;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 20px 0px 10px 0px;
+}
+
+.buy-now-product-btn a {
+    text-decoration: none;
+    color: #f1dc68;
+}
+
+.add-to-cart-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.buy-now-product-btn:hover {
+    border: 3px solid #f2dc68;
+}
+
+.add-to-cart-btn:hover {
+    border: 3px solid #f2dc68;
+}
+
+/* Footer */
+
+.foot-er {
+    display: flex;
+}

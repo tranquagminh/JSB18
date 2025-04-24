@@ -1,0 +1,14 @@
+@media only screen and (max-width: 576px) {
+
+    /* Product Info */
+
+    /* Search Bar */
+    .search-bar {
+        width: 100% !important;
+    }
+
+    /* Product Name */
+    .product-title h1 {
+       width: 386px !important;
+    }
+}
